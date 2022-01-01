@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top__info {
+	width: 510px;
+}
+
+.top__info p {
+	width: 425px;
+}
+
+.what-we-do__cardlist {
+	display: flex;
+	margin: 16px;
+}
+
+.card {
+	width: 359px;
+}
+
+.footer__text {
+	width: 495px;
+}
+
+.footer__text h3 {
+	width: 340px;
+}
+
+.footer__info {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.link {
+	display: flex;
+	justify-content: space-around;
+}
+
+.paragraph {
+	font-size: 16px;
+	line-height: 26px;
+	color: #1f3f68;
+}
+
+.heading-main {
+	font-size: 64px;
+	color: #1f3f68;
+}
+
+.heading-contacts {
+	font-weight: 500;
+	font-size: 44px;
+	text-align: center;
+}
+
+.heading-mid {
+	font-size: 36px;
+	text-align: center;
+}
+
+.heading-mini {
+	font-size: 20px;
+	line-height: 30px;
+	color: #1f3f68;
+}
+
+.entry {
+	border: 1px solid #356ead;
+	box-sizing: border-box;
+	border-radius: 10px;
+	opacity: 0.4;
+}
+
+.button {
+	background: #5a98d0;
+	box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+	border-radius: 10px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+}
